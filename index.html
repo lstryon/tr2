@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Display</title>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<style>
+	body{
+		margin: 0;
+		padding: 0;
+	}
+
+
+	#head{
+		background-color: blueviolet;
+		overflow: hidden;
+		width: 80%;
+		margin: auto;
+		padding: 15px;
+		font-size: 18px;
+
+
+	}
+
+
+	#menu{
+		display: inline-block;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		float: right;
+}	
+
+	#logo{
+		color: white;
+		float: left;
+		
+	}
+
+	li{
+		float: left;
+		color: white;
+		margin-left: 15px;
+		
+	}
+
+	@media screen and (max-width:700px) {
+
+	
+
+		#menu{
+			float: none;
+			text-align: center;
+		}
+
+		#logo{
+			float: none;
+			text-align: center;
+		}
+
+		li{
+			float: none;
+			margin-top: 5px;
+			padding: 10px;
+			
+		}
+
+
+
+	}
+
+
+
+
+	</style>
+	
+</head>
+<body>
+
+	<div id="head">
+		<div id="logo">
+		LOGO
+		</div>
+		
+		<ul id="menu">
+			<li>HOME</li>
+			<li>SOBRE</li>
+			<li>COMPRAR</li>
+			<li>LOCALIZAÇÃO</li>
+			<li>CONTATO</li>
+
+
+		</ul>
+
+
+	</div>
+
+
+	
+
+	
+
+</body>
+</html>
